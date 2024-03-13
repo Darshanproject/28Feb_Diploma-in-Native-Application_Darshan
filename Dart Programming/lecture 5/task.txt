@@ -1,0 +1,14 @@
+take input form user 
+take two numbers 
+show hand drewain menu over here 
+add
+sub 
+mul
+div
+even or odd
+prime or not prime
+ans
+do you want  to perfome anything else
+yes
+no 
+thanks for using our program

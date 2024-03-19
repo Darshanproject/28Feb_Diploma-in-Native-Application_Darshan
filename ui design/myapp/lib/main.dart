@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/Screens/Sample.dart';
 
 void main(){
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -10,16 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.amberAccent,
-        appBar: AppBar(
-          backgroundColor: Color.fromARGB(246, 224, 19, 87),
-          title: Text("MyApp"),
-        ),
-        body: Center(
-          child: Text("This is my first app"),
-        ),
-      ),
+      home: Home_Page()
     );
   }
 }
